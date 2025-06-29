@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header_1
+{
+    margin-top: 30px;
+    background-color: black;
+  height: 82px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+   border-bottom-right-radius: 30px;
+  border-top-right-radius: 80px;
+  width: 99.7%;
+
+}
+.Header_1 .link{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.logo_2
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.eat_1
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.eat_2
+{
+     display: flex;
+  flex-wrap: wrap;        
+  gap: 10px;            
+  justify-content: center;
+}
+.eat_3
+{
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    border: 1px solid black;
+     border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+   border-bottom-right-radius: 30px;
+  border-top-right-radius: 80px;
+  
+}
+
+.eat_3 .eat_foto
+{
+    width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  display: block;
+  border-radius: 90px;
+  margin-top: -70px;
+  margin-left: -60px;
+  transition: 0.7s;
+
+}
+
+.eat_3 .eat_foto:hover  .p_eat_info
+{
+    color: white;
+}
+
+.eat_3_1_in_configurasion
+{
+    display: flex;
+
+}.eat_3_1_in_configurasion h3 {margin-top: -30px;margin-left: 20px;}
+
+.p_eat_info
+{
+ font-family: sans-serif;
+  line-height: 1.5;
+margin-top: -100px;
+ text-align: end;
+margin-left: 130px;
+margin-right: 20px;
+
+}
+
+.price
+{
+    
+    color: green;
+margin-left: 150px;
+margin-top: -60px;
+
+}
+
