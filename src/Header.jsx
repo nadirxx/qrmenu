@@ -8,11 +8,12 @@ function Header() {
       <div className='logo_1'>
         <img className='logo_2' src={logo} alt="" />
       </div>
-           <Link  className='link' to={"/"}>Home</Link>
-        <Link  className='link'  to={"/Salads"}>Salads</Link>
-        <Link  className='link'  to={"/MainCourses"}>Main Courses</Link>
-        <Link  className='link'  to={"/Drinks"}>Drinks</Link>
-         <Link  className='link'  to={"/Desert"}>Desert</Link>
+        <Link   className='link' to={"/"}>Home</Link>
+        <Link   className='link'  to={"/Salads"}>Salads</Link>
+        <Link   className='link'  to={"/MainCourses"}>Main Courses</Link>
+        <Link   className='link'  to={"/Drinks"}>Drinks</Link>
+         <Link   className='link'  to={"/Desert"}>Desert</Link>
+         <h2 className='res_name'>Golden Thyme∭</h2>
          
     </div>
   )

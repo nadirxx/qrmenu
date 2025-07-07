@@ -20,12 +20,11 @@ const {id,name,img,info,price}=drink;
     </div>
     <p className='p_eat_info'>{info}</p>
   
+  </div>
+  </div>
+  <p className='price'>Price :{price}&#8382;</p>
   
-  </div>
-  </div>
-  <div className='price'>
-  <h3>Price:{price}</h3>
-</div>
+
       </div>
   )
 }

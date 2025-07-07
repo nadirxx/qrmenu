@@ -18,14 +18,13 @@ const {id,name,img,info,price}=desert;
        <p className='p_eat_info'>
         {info}
      </p>
+  
      </div>
      
      
      
      </div>
-     <div className='price'>
-  <h3>Price:{price}</h3>
-</div>
+    <p className='price'>Price :{price}&#8382;</p>
          </div>
   )
 }

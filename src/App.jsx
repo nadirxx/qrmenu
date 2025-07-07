@@ -7,6 +7,7 @@ import MainCourses from './Menu/MainCourses'
 import Drinks from './Menu/Drinks'
 import Desert from './Menu/Desert'
 import { useSelector } from 'react-redux'
+import Home from './Menu/Home'
 
 function App() {
  //ana yemekler
@@ -31,8 +32,11 @@ const {salad} = useSelector((store)=>store.pro);
 
   return (
     <div>
-      <Header/>
+      <Header />
       <Routes>
+
+        <Route path='/' element={<Home/>}></Route>
+
         <Route path='/Salads' element={salad&&salad.map((salad)=>(
           <Salads key={salad.id} salad={salad}/>
         ))}></Route>

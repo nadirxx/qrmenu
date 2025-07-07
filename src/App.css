@@ -24,6 +24,7 @@ body
     text-decoration: none;
     font-size: 16px;
     padding-left: 15px;
+    transition: 0.6s;
 }
 .logo_2
 {
@@ -68,7 +69,16 @@ body
   transition: 0.7s;
 
 }
-
+.res_name
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5%;
+    display: none;
+    transition: 0.6s;
+    color: gold;
+   
+}
 .eat_3 .eat_foto:hover  .p_eat_info
 {
     color: white;
@@ -79,6 +89,12 @@ body
     display: flex;
 
 }.eat_3_1_in_configurasion h3 {margin-top: -30px;margin-left: 20px;}
+.info_div
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
 
 .p_eat_info
 {
@@ -88,15 +104,173 @@ margin-top: -100px;
  text-align: end;
 margin-left: 130px;
 margin-right: 20px;
+display: inline-block;
 
 }
 
 .price
 {
-    
+    text-align: center;
     color: green;
-margin-left: 150px;
-margin-top: -60px;
+    
+}
+
+
+@media (min-width: 800px) {
+ .Header_1 .link {
+  
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  .res_name
+  {
+    margin-left: 10%;
+    font-size: 40px;
+  }
+ 
+}
+
+@media (min-width: 600px) {
+.res_name
+{
+    display: block;
+}
+ 
+}
+
+@media (min-width: 688px) {
+.res_name
+{
+  font-size: 30px;
+  margin-left: 5%;
+}
+ 
+}
+
+
+@media (max-width: 588px) {
+.res_name
+{
+    display: none;
+}
+ 
+}
+
+@media (min-width: 1208px) {
+.res_name
+{
+  font-size: 30px;
+  margin-left: 15%;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slideshow css*/
+
+
+#setname
+{
+  margin-left: 2px;
+  font-size: 23px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  width: 100;
+  height: 55px;
+ text-align: start;
+ justify-content: center;
+ display: flex;
+}
+#setname p{
+  color: gold;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#slideShow
+{
+  border-radius: 40px;
+}
+.icon
+{
+  color: green;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100px;
+  border: 2.5px solid forestgreen;
+  font-size: 25px;
+  transition: 0.6s;
+}
+.set_info_div
+{
+  width: 500px;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 60px;
+  transition: 0.6s;
+ border-radius: 25px;
+ font-size: 15px;
+}
+.icon:hover
+{
+
+  width: 40px;
+  height: 40px;
+}
+.card-social
+{
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  margin-top: -180px;
+  height: 200px;
+}
+#slideShow_1DIV
+{
+  margin-top: -150px;
+}
+@media (min-width: 708px) {
+#slideShow_1DIV
+{
+  margin-top: -130px;
 
 }
 
+
+.card-social
+{
+  height: 100px;
+  position: absolute;
+  margin-top: -120px;
+}
+
+}
+.card-social
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
