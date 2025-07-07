@@ -8,7 +8,7 @@ import kola from './DrinksIMG/kolaMENU.jpg'
 import fanta from './DrinksIMG/fantaMENU.jpg'
 //desertler
 
-import sufle from './DesertIMG/sufleMENU.jpg'
+import sufle from './DesertIMG/sufleMenu.jpg'
 
 //salata
 
@@ -58,7 +58,7 @@ desert:[
     }
 ],
 salad:[
-    {id:'1221221',name:'Yunan Salads',img:greeksalad,price:10.00,info:'Yunan salatası; domates, salatalık, kırmızı soğan, zeytin ve beyaz peynirin zeytinyağı ve kekikle harmanlandığı ferahlatıcı bir Akdeniz lezzetidir.'},
+    {id:'1221221',name:'Salads',img:greeksalad,price:10.00,info:'Yunan salatası; domates, salatalık, kırmızı soğan, zeytin ve beyaz peynirin zeytinyağı ve kekikle harmanlandığı ferahlatıcı bir Akdeniz lezzetidir.'},
 ]
 
 
